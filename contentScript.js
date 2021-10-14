@@ -36,31 +36,35 @@ const segond21Veses = [
 const updatePanel = document.getElementsByClassName("footer")[0];
 const btnChangeImage = updatePanel.children[2];
 const btnEl = document.createElement('button');
-btnEl.innerHTML = "Activate Auto-Changer";
+btnEl.innerHTML = "Activate Auto-Changer (Click to start)";
 btnEl.style.marginTop = "23px"
 btnEl.style.marginLeft = "10px";
 btnChangeImage.style.width = "";
 updatePanel.appendChild(btnEl);
 
-let isRunning = false;
-
 btnEl.onclick = function(e) {
     e.preventDefault();
-    btnEl.innerHTML = "Auto-Changer Running";
-    isRunning = true;
-    // document.getElementById('chkMirror').click();
-    var intervalId = window.setInterval(function() {
-        let bibleValue;
-        const currentVerse = document.getElementById('pVerse').innerText;
-        if (martinVerses.includes(currentVerse)) {
-            bibleValue = martinValue;
-        } else if (martinVerses.includes(segond21Veses)) {
-            bibleValue = segond21Value;
-        } else {
-            bibleValue = darbyValue;
-        }
-        document.getElementById('ddlTranslations').value = bibleValue;
-    }, 1000);
+
+    if (btnEl.innerHTML === "Activate Auto-Changer (Click to start)") {
+        btnEl.innerHTML = "Auto-Changer Running (Click to stop)";
+        var intervalId = window.setInterval(function() {
+            let bibleValue;
+            const currentVerse = document.getElementById('pVerse').innerText;
+            if (martinVerses.includes(currentVerse)) {
+                bibleValue = martinValue;
+            } else if (martinVerses.includes(segond21Veses)) {
+                bibleValue = segond21Value;
+            } else {
+                bibleValue = darbyValue;
+            }
+            document.getElementById('ddlTranslations').value = bibleValue;
+            if (!(document.getElementById('chkMirror').checked)) {
+                document.getElementById('chkMirror').click();
+            }
+        }, 1000);
+    } else {
+        btnEl.innerHTML = "Activate Auto-Changer (Click to start)";
+    }
 }
 
 
