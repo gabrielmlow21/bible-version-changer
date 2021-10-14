@@ -1,0 +1,19 @@
+{
+    "name": "Bible Auto-Changer Extension",
+    "description": "Bible Version Changer Extension",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "action": {
+        "default_title": "Bible Auto-Changer",
+        "default_popup": "./popup/popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://bible.mcgi.org/*",
+                "*://bible.addcit.org/*"
+            ],
+            "js": ["contentScript.js"] 
+        }
+    ]
+}
