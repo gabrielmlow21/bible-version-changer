@@ -4,33 +4,22 @@ const martinValue = 164;
 const segond21Value = 163;
 
 const martinVerses = [
-    "1 CORINTHIENS 5:11",
-    "1 CORINTHIENS 5:12",
-    "1 CORINTHIENS 5:13",
-    "JÉRÉMIE 30:19",
-    "JÉRÉMIE 30:20",
-    "JÉRÉMIE 30:21",
-    "JÉRÉMIE 30:24",
-    "LUC 15:7",
-    "MATTHIEU 22:37",
-    "MATTHIEU 22:39",
-    "TITE 3:10",
-    "ROMAINS 9:20",
-    "ROMAINS 9:21"
+
 ]
 
 const segond21Veses = [
-    "1 PIERRE 3:4",
-    "ESAÏE 3:16",
-    "ESAÏE 3:17",
-    "ESAÏE 3:18",
-    "ESAÏE 3:19",
-    "ESAÏE 3:20",
-    "ESAÏE 3:21",
-    "ESAÏE 3:22",
-    "ESAÏE 3:23",
-    "ESAÏE 3:24",
-    "JÉRÉMIE 4:30"
+
+]
+
+const louisSegondVerses = [
+    "PSAUMES 50:23",
+    "1 TIMOTHÉE 3:15",
+    "1 THESSALONICIENS 2:14",
+    "GALATES 1:14",
+    "1 CORINTHIENS 1:1",
+    "1 CORINTHIENS 1:2",
+    "ROMAINS 12:9",
+    "COLOSSIENS 1:18"
 ]
 
 const updatePanel = document.getElementsByClassName("footer")[0];
