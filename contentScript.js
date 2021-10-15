@@ -138,6 +138,8 @@ btnEl.onclick = function(e) {
             if (!(document.getElementById('chkMirror').checked)) {
                 document.getElementById('chkMirror').click();
             }
+            document.getElementById('chkMirror').click();
+            document.getElementById('chkMirror').click();
         }, 1000);
     } else {
         btnEl.innerHTML = "Activate Auto-Changer (Click to start)";
