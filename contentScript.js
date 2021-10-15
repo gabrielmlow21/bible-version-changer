@@ -120,15 +120,16 @@ updatePanel.appendChild(btnEl);
 
 btnEl.onclick = function(e) {
     e.preventDefault();
-
     if (btnEl.innerHTML === "Activate Auto-Changer (Click to start)") {
         btnEl.innerHTML = "Auto-Changer Running (Click to stop)";
         var intervalId = window.setInterval(function() {
             let bibleValue;
             const currentVerse = document.getElementById('pVerse').innerText;
-            if (martinVerses.includes(currentVerse)) {
+            if (louisSegondVerses.includes(currentVerse)) {
+                bibleValue = louisSegondValue;
+            } else if (martinVerses.includes(currentVerse)) {
                 bibleValue = martinValue;
-            } else if (martinVerses.includes(segond21Veses)) {
+            } else if (segond21Veses.includes(currentVerse)) {
                 bibleValue = segond21Value;
             } else {
                 bibleValue = darbyValue;
