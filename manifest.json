@@ -4,8 +4,7 @@
     "version": "0.0.0",
     "manifest_version": 3,
     "action": {
-        "default_title": "Bible Auto-Changer",
-        "default_popup": "./popup/popup.html"
+        "default_title": "Bible Auto-Changer"
     },
     "content_scripts": [
         {
