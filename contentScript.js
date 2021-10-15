@@ -4,7 +4,7 @@ const martinValue = 164;
 const segond21Value = 163;
 
 const martinVerses = [
-
+    "ACTES 20:28",
 ]
 
 const segond21Veses = [
@@ -13,14 +13,33 @@ const segond21Veses = [
 
 const louisSegondVerses = [
     "PSAUMES 50:23",
-    "1 TIMOTHÉE 3:15",
-    "1 THESSALONICIENS 2:14",
-    "GALATES 1:14",
     "1 CORINTHIENS 1:1",
     "1 CORINTHIENS 1:2",
+    "1 CORINTHIENS 4:6",
+    "1 CORINTHIENS 10:32",
+    "1 CORINTHIENS 12:13",
+    "1 CORINTHIENS 12:28",
+    "1 CORINTHIENS 14:33",
+    "1 CORINTHIENS 15:9",
+    "1 CORINTHIENS 15:10",
+    "1 JEAN 5:16",
+    "1 THESSALONICIENS 2:14",
+    "1 TIMOTHÉE 3:5",
+    "1 TIMOTHÉE 3:15",
+    "2 CORINTHIENS 1:1",
+    "COLOSSIENS 1:18",
+    "ÉPHÉSIENS 1:22",
+    "ÉPHÉSIENS 5:32",
+    "GALATES 1:14",
+    "GALATES 1:22",
+    "HÉBREUX 3:6",
+    "MATTHIEU 16:18",
+    "MATTHIEU 28:20",
+    "ROMAINS 12:1",
     "ROMAINS 12:9",
-    "COLOSSIENS 1:18"
+    "ROMAINS 16:16",
 ]
+
 
 const updatePanel = document.getElementsByClassName("footer")[0];
 const btnChangeImage = updatePanel.children[2];
