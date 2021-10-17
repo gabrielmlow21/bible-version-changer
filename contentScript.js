@@ -115,7 +115,7 @@ const btnEl = document.createElement('button');
 btnEl.innerHTML = "Activate Auto-Changer (Click to start)";
 btnEl.style.marginTop = "23px"
 btnEl.style.marginLeft = "10px";
-btnChangeImage.style.width = "";
+// btnChangeImage.style.width = "";
 updatePanel.appendChild(btnEl);
 var intervalId;
 
