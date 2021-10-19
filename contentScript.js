@@ -34,6 +34,7 @@ function checkVerse() {
     if (!(document.getElementById('chkMirror').checked)) {
         document.getElementById('chkMirror').click();
     }
+    // needs to be clicked multiple times for Bible version to be updated
     document.getElementById('chkMirror').click();
     document.getElementById('chkMirror').click();
 }
