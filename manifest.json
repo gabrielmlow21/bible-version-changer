@@ -1,8 +1,14 @@
 {
     "name": "Bible Auto-Changer Extension",
     "description": "Bible Version Changer Extension",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "manifest_version": 3,
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
     "action": {
         "default_title": "Bible Auto-Changer"
     },
