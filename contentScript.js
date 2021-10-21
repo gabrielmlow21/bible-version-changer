@@ -39,30 +39,30 @@ btnEl.onclick = function(e) {
             versesJson = italian;
         }
         intervalId = window.setInterval(checkVerse, 1000);
-    } else if (btnEl.innerHTML === "Auto-Changer Running (Click to Stop)" && selectedLanguage !== "Select a language...") {
+    } else if (btnEl.innerHTML === "Auto-Changer Running (Click to Stop)") {
         clearInterval(intervalId);
         btnEl.innerHTML = "Activate Auto-Changer (Click to Start)";
     }
 }
 
-function checkVerse() {
-    let bibleValue = defaultVersions[selectedLanguage]["bibleValue"];
+function checkVerse() { 
     const currentVerse = document.getElementById('pVerse').innerText;
-    if (currentVerse in versesJson) {
-        bibleValue = versesJson[currentVerse]["versionValue"];
-    }
-    document.getElementById('ddlTranslations').value = bibleValue;
-    if (!(document.getElementById('chkMirror').checked)) {
+    if (currentVerse in versesJson && versesJson[currentVerse]["versionValue"] === null) {
+        document.getElementById('pVerse').innerText = versesJson[currentVerse]["versionName"];
+        document.getElementById('pContent').innerText = versesJson[currentVerse]["content"];
+    } else {
+        const bibleValue = (currentVerse in versesJson) ? versesJson[currentVerse]["versionValue"] : defaultVersions[selectedLanguage]["bibleValue"];
+        document.getElementById('ddlTranslations').value = bibleValue;
+        if (!(document.getElementById('chkMirror').checked)) {
+            document.getElementById('chkMirror').click();
+        }
+        // needs to be clicked multiple times for Bible version to be updated
+        document.getElementById('chkMirror').click();
         document.getElementById('chkMirror').click();
     }
-    // needs to be clicked multiple times for Bible version to be updated
-    document.getElementById('chkMirror').click();
-    document.getElementById('chkMirror').click();
 }
 
-
 // *******************************************BIBLE VERSES BELOW*************************************************************** //
-
 const defaultVersions = {
     "French": {
         "bibleName": "Darby 1885",
