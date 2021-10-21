@@ -5,6 +5,7 @@ let versesJson;
 const updatePanel = document.getElementsByClassName("footer")[0];
 const btnChangeImage = updatePanel.children[2];
 const btnEl = document.createElement('button');
+btnChangeImage.style.width = "100px";
 btnEl.innerHTML = "Activate Auto-Changer (Click to Start)";
 btnEl.style.marginTop = "23px"
 btnEl.style.marginLeft = "10px";
