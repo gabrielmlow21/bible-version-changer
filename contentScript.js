@@ -1,15 +1,17 @@
-let intervalId;
+let setCheckVerseInterval;
+let setCheckForOperatorInterval;
 let selectedLanguage;
 let versesJson;
 
 const updatePanel = document.getElementsByClassName("footer")[0];
 const btnChangeImage = updatePanel.children[2];
-const btnEl = document.createElement('button');
 btnChangeImage.style.width = "100px";
-btnEl.innerHTML = "Activate Auto-Changer (Click to Start)";
-btnEl.style.marginTop = "23px"
-btnEl.style.marginLeft = "10px";
-updatePanel.appendChild(btnEl);
+
+const btnToggleExtension = document.createElement('button');
+btnToggleExtension.innerHTML = "Activate Auto-Changer (Click to Start)";
+btnToggleExtension.style.marginTop = "23px"
+btnToggleExtension.style.marginLeft = "10px";
+updatePanel.appendChild(btnToggleExtension);
 
 // Language Dropdown
 const languages = ["Select a language...", "French", "Italian"];
@@ -29,20 +31,33 @@ for (var i = 0; i < languages.length; i++) {
     selectList.appendChild(option);
 }
 
-btnEl.onclick = function(e) {
+setCheckForOperatorInterval = window.setInterval(checkForOperator, 1000)
+
+function checkForOperator() {
+    if (document.getElementById('ddlOperator').value == "") {
+        btnToggleExtension.disabled = true;
+        btnToggleExtension.innerHTML = "Please Wait For An Operator";
+    } else {
+        btnToggleExtension.disabled = false;
+        btnToggleExtension.innerHTML = "Activate Auto-Changer (Click to Start)";
+        clearInterval(setCheckForOperatorInterval);
+    }
+}
+
+btnToggleExtension.onclick = function(e) {
     e.preventDefault();
     selectedLanguage = languageSelect.value;
-    if (btnEl.innerHTML === "Activate Auto-Changer (Click to Start)" && selectedLanguage !== "Select a language...") {
-        btnEl.innerHTML = "Auto-Changer Running (Click to Stop)";
+    if (btnToggleExtension.innerHTML === "Activate Auto-Changer (Click to Start)" && selectedLanguage !== "Select a language...") {
+        btnToggleExtension.innerHTML = "Auto-Changer Running (Click to Stop)";
         if (selectedLanguage === "French") {
             versesJson = french;
         } else if (selectedLanguage === "Italian") {
             versesJson = italian;
         }
-        intervalId = window.setInterval(checkVerse, 1000);
-    } else if (btnEl.innerHTML === "Auto-Changer Running (Click to Stop)") {
-        clearInterval(intervalId);
-        btnEl.innerHTML = "Activate Auto-Changer (Click to Start)";
+        setCheckVerseInterval = window.setInterval(checkVerse, 1000);
+    } else if (btnToggleExtension.innerHTML === "Auto-Changer Running (Click to Stop)") {
+        clearInterval(setCheckVerseInterval);
+        btnToggleExtension.innerHTML = "Activate Auto-Changer (Click to Start)";
     }
 }
 
