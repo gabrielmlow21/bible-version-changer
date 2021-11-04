@@ -1,117 +1,22 @@
-// 166 = Darby 1885
 const defaultBibleValue = 166;
-let verse;
-// const updatePanel = document.getElementsByClassName("footer")[0];
-// const btnChangeImage = updatePanel.children[2];
-// btnChangeImage.style.width = "100px";
+let verse = "";
 
-// const btnToggleExtension = document.createElement('button');
-// btnToggleExtension.innerHTML = "Activate Auto-Changer (Click to Start)";
-// btnToggleExtension.style.marginTop = "23px"
-// btnToggleExtension.style.marginLeft = "10px";
-// updatePanel.appendChild(btnToggleExtension);
-
-// Language Dropdown
-// const languages = ["Select a language...", "French", "Italian"];
-
-// Create and append select list
-// var selectList = document.createElement("select");
-// selectList.setAttribute("id", "languageSelect");
-// selectList.style.marginTop = "23px"
-// selectList.style.marginLeft = "10px";
-// updatePanel.appendChild(selectList);
-
-//Create and append the options
-// for (var i = 0; i < languages.length; i++) {
-//     var option = document.createElement("option");
-//     option.setAttribute("value", languages[i]);
-//     option.text = languages[i];
-//     selectList.appendChild(option);
-// }
-
-// setCheckForOperatorInterval = window.setInterval(checkForOperator, 1000)
-
-// function checkForOperator() {
-//     if (document.getElementById('ddlOperator').value == "") {
-//         btnToggleExtension.disabled = true;
-//         btnToggleExtension.innerHTML = "Please Wait For An Operator";
-//     } else {
-//         btnToggleExtension.disabled = false;
-//         btnToggleExtension.innerHTML = "Activate Auto-Changer (Click to Start)";
-//         clearInterval(setCheckForOperatorInterval);
-//     }
-// }
 window.setInterval(function() {
     const currentVerse = document.getElementById("pVerse").innerText;
-    
     if (verse !== currentVerse) {
         verse = currentVerse;
         const bibleValue = (currentVerse in versesJson) ? versesJson[currentVerse]["versionValue"] : defaultBibleValue;
-
-        const currentVerse = document.getElementById('pVerse').innerText;
-        // document.getElementById('pVerse').innerText = versesJson[currentVerse]["versionName"];
-        // document.getElementById('pContent').innerText = versesJson[currentVerse]["content"];
         document.getElementById('ddlTranslations').value = bibleValue;
         if (!(document.getElementById('chkMirror').checked)) {
             document.getElementById('chkMirror').click();
         }
-
         if (bibleValue !== defaultBibleValue) {
-            window.setTimeout(document.getElementById('chkMirror').click(), 500);
-            window.setTimeout(document.getElementById('chkMirror').click(), 500);
+            document.getElementById('chkMirror').click()
+            document.getElementById('chkMirror').click()
         }
     }
-    
-    // needs to be clicked multiple times for Bible version to be updated
-    // document.getElementById('chkMirror').click();
-    // document.getElementById('chkMirror').click();
 }, 1000);
-// btnToggleExtension.onclick = function(e) {
-//     e.preventDefault();
-//     selectedLanguage = languageSelect.value;
-//     if (btnToggleExtension.innerHTML === "Activate Auto-Changer (Click to Start)" && selectedLanguage !== "Select a language...") {
-//         btnToggleExtension.innerHTML = "Auto-Changer Running (Click to Stop)";
-//         if (selectedLanguage === "French") {
-//             versesJson = french;
-//         } else if (selectedLanguage === "Italian") {
-//             versesJson = italian;
-//         }
-//         setCheckVerseInterval = window.setInterval(checkVerse, 1000);
-//     } else if (btnToggleExtension.innerHTML === "Auto-Changer Running (Click to Stop)") {
-//         clearInterval(setCheckVerseInterval);
-//         btnToggleExtension.innerHTML = "Activate Auto-Changer (Click to Start)";
-//     }
-// }
 
-// function checkVerse() { 
-//     const currentVerse = document.getElementById('pVerse').innerText;
-//     if (currentVerse in versesJson && versesJson[currentVerse]["versionValue"] === null) {
-//         document.getElementById('pVerse').innerText = versesJson[currentVerse]["versionName"];
-//         document.getElementById('pContent').innerText = versesJson[currentVerse]["content"];
-//     } else {
-//         const bibleValue = (currentVerse in versesJson) ? versesJson[currentVerse]["versionValue"] : defaultVersions[selectedLanguage]["bibleValue"];
-//         document.getElementById('ddlTranslations').value = bibleValue;
-//         if (!(document.getElementById('chkMirror').checked)) {
-//             document.getElementById('chkMirror').click();
-//         }
-//         // needs to be clicked multiple times for Bible version to be updated
-//         document.getElementById('chkMirror').click();
-//         document.getElementById('chkMirror').click();
-//     }
-// }
-
-// *******************************************BIBLE VERSES BELOW*************************************************************** //
-// const defaultVersions = {
-//     "French": {
-//         "bibleName": "Darby 1885",
-//         "bibleValue": 166
-//     }
-//     // },
-//     // "Italian": {
-//     //     "bibleName": "Darby 1885",
-//     //     "bibleValue": 69
-//     // }
-// }
 const versesJson = {
     "1 CORINTHIENS 1:1": {
         "versionValue": 44, 
