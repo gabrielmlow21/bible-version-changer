@@ -1,5 +1,6 @@
 const defaultBibleValue = 166;
 let verse = "";
+let bibleVersion = "";
 
 window.setInterval(function() {
     const currentVerse = document.getElementById("pVerse").innerText;
@@ -10,10 +11,8 @@ window.setInterval(function() {
         if (!(document.getElementById('chkMirror').checked)) {
             document.getElementById('chkMirror').click();
         }
-        if (bibleValue !== defaultBibleValue) {
-            document.getElementById('chkMirror').click()
-            document.getElementById('chkMirror').click()
-        }
+        document.getElementById('chkMirror').click()
+        document.getElementById('chkMirror').click()
     }
 }, 1000);
 
@@ -94,6 +93,10 @@ const versesJson = {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
+    "1 JEAN 3:16": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
     "1 JEAN 5:16": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
@@ -139,6 +142,14 @@ const versesJson = {
         "versionName": "LOUIS SEGOND 1910"
     },
     "2 CORINTHIENS 11:28": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "ACTES 2:46": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "ACTES 2:47": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
