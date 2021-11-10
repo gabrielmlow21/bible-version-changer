@@ -10,7 +10,7 @@
         "128": "icon.png"
     },
     "action": {
-        "default_title": "Bible Auto-Changer"
+        "default_title": "French Bible Auto-Changer"
     },
     "content_scripts": [
         {
