@@ -1,6 +1,5 @@
 const defaultBibleValue = 166;
 let verse = "";
-let bibleVersion = "";
 
 window.setInterval(function() {
     const currentVerse = document.getElementById("pVerse").innerText;
@@ -137,9 +136,17 @@ const versesJson = {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
+    "2 CORINTHIENS 9:6": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
     "2 CORINTHIENS 9:7": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
+    },
+    "2 CORINTHIENS 9:13": {
+        "versionValue": 164, 
+        "versionName": "MARTIN 1744"
     },
     "2 CORINTHIENS 11:28": {
         "versionValue": 44, 
