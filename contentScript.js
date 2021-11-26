@@ -192,6 +192,10 @@ const versesJson = {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
+    "APOCALYPSE 2:7": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
     "APOCALYPSE 2:17": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
@@ -260,6 +264,10 @@ const versesJson = {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
+    "ESAÏE 1:17": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
     "ESAÏE 24:15": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
@@ -281,6 +289,10 @@ const versesJson = {
         "versionName": "LOUIS SEGOND 1910"
     },
     "GALATES 1:22": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "GALATES 2:17": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
@@ -307,6 +319,10 @@ const versesJson = {
     "JACQUES 1:27": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
+    },
+    "JACQUES 2:6": {
+        "versionValue": 164, 
+        "versionName": "MARTIN 1744"
     },
     "JACQUES 4:7": {
         "versionValue": 44, 
@@ -349,6 +365,10 @@ const versesJson = {
         "versionName": "LOUIS SEGOND 1910"
     },
     "MATTHIEU 16:18": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "MATTHIEU 18:17": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
