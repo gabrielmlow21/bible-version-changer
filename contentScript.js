@@ -440,6 +440,10 @@ const versesJson = {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
+    "TITE 1:3": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
     "TITE 1:7": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
