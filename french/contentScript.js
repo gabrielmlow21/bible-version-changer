@@ -24,6 +24,10 @@ const versesJson = {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
+    "1 CORINTHIENS 3:6": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
     "1 CORINTHIENS 3:9": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
@@ -96,6 +100,10 @@ const versesJson = {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
+    "1 JEAN 3:17": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
     "1 JEAN 5:16": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
@@ -105,6 +113,10 @@ const versesJson = {
         "versionName": "LOUIS SEGOND 1910"
     },
     "1 THESSALONICIENS 2:4": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "1 THESSALONICIENS 2:10": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
@@ -184,6 +196,10 @@ const versesJson = {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
+    "APOCALYPSE 1:10": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
     "APOCALYPSE 1:11": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
@@ -233,6 +249,10 @@ const versesJson = {
         "versionName": "LOUIS SEGOND 1910"
     },
     "COLOSSIENS 3:16": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "ECCLÉSIASTE 12:10": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
@@ -308,11 +328,31 @@ const versesJson = {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
+    "HÉBREUX 4:15": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
     "HÉBREUX 10:24": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
     "HÉBREUX 10:25": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "HÉBREUX 12:5": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "HÉBREUX 12:6": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "HÉBREUX 12:11": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "HÉBREUX 13:5": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
@@ -351,6 +391,14 @@ const versesJson = {
     "JÉRÉMIE 18:12": {
         "versionValue": 164, 
         "versionName": "MARTIN 1744"
+    },
+    "JUDE 1:23": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "LUC 2:14": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
     },
     "LUC 6:45": {
         "versionValue": 44, 
@@ -404,11 +452,27 @@ const versesJson = {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
+    "PROVERBES 22:6": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "PSAUMES 40:8": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
     "PSAUMES 50:23": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
     "PSAUMES 68:18": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "PSAUMES 130:3": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "PSAUMES 130:4": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
@@ -453,6 +517,14 @@ const versesJson = {
         "versionName": "LOUIS SEGOND 1910"
     },
     "TITE 1:9": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "TITE 1:23": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "ZACHARIE 7:10": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     }
