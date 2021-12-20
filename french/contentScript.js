@@ -164,6 +164,14 @@ const versesJson = {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
+    "3 JEAN 1:9": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "3 JEAN 1:10": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
     "ACTES 2:46": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
@@ -312,6 +320,10 @@ const versesJson = {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
+    "GALATES 1:23": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
     "GALATES 2:17": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
@@ -453,6 +465,10 @@ const versesJson = {
         "versionName": "LOUIS SEGOND 1910"
     },
     "PROVERBES 22:6": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "PROVERBES 24:9": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
