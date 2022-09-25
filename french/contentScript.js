@@ -528,6 +528,10 @@ const versesJson = {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
+    "ROMAINS 15:13": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
     "ROMAINS 16:16": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
