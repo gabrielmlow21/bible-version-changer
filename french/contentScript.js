@@ -164,6 +164,10 @@ const versesJson = {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
+    "2 TIMOTHÉE 2:15": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
     "3 JEAN 1:9": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
