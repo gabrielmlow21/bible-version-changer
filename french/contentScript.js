@@ -188,6 +188,10 @@ const versesJson = {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
+    "ACTES 8:37": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
     "ACTES 11:26": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
