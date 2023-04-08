@@ -72,6 +72,38 @@ const versesJson = {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
+    "1 CORINTHIENS 11:20": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "1 CORINTHIENS 11:21": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "1 CORINTHIENS 11:22": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "1 CORINTHIENS 11:23": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "1 CORINTHIENS 11:24": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "1 CORINTHIENS 11:25": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "1 CORINTHIENS 11:26": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "1 CORINTHIENS 11:27": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
     "1 CORINTHIENS 12:13": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
@@ -281,6 +313,10 @@ const versesJson = {
         "versionName": "LOUIS SEGOND 1910"
     },
     "ÉPHÉSIENS 3:11": {
+        "versionValue": 44, 
+        "versionName": "LOUIS SEGOND 1910"
+    },
+    "ÉPHÉSIENS 4:15": {
         "versionValue": 44, 
         "versionName": "LOUIS SEGOND 1910"
     },
