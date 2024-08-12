@@ -1,24 +1,25 @@
 {
-    "name": "French Bible Auto-Changer Extension",
-    "description": "Bible Version Changer Extension for the French language",
-    "version": "1.0.8",
-    "manifest_version": 3,
-    "icons": {
-        "16": "icon.png",
-        "32": "icon.png",
-        "48": "icon.png",
-        "128": "icon.png"
-    },
-    "action": {
-        "default_title": "French Bible Auto-Changer"
-    },
-    "content_scripts": [
-        {
-            "matches": [
-                "*://bible.mcgi.org/*",
-                "*://bible.addcit.org/*"
-            ],
-            "js": ["contentScript.js"] 
-        }
-    ]
+  "name": "French Bible Auto-Changer Extension",
+  "description": "Bible Version Changer Extension for the French language",
+  "version": "1.1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_title": "French Bible Auto-Changer"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://bible.mcgi.org/*",
+        "*://bible.addcit.org/*",
+        "*://bible.mcgi.app/*"
+      ],
+      "js": ["contentScript.js"]
+    }
+  ]
 }
