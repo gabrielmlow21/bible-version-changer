@@ -303,7 +303,13 @@ const versesJson = {
   "ESAÏE 1:17": {
     versionName: BibleVersion["LOUIS SEGOND 1910"],
   },
+  "ÉSAÏE 1:17": {
+    versionName: BibleVersion["LOUIS SEGOND 1910"],
+  },
   "ESAÏE 24:15": {
+    versionName: BibleVersion["LOUIS SEGOND 1910"],
+  },
+  "ÉSAÏE 24:15": {
     versionName: BibleVersion["LOUIS SEGOND 1910"],
   },
   "ESDRAS 7:23": {
