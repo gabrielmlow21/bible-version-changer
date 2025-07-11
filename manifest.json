@@ -1,7 +1,7 @@
 {
-  "name": "French Bible Auto-Changer Extension",
-  "description": "Bible Version Changer Extension for the French language",
-  "version": "1.1.1",
+  "name": "Bible Version Changer - French",
+  "description": "Bible Verse Changer Extension for the French language",
+  "version": "1.2.0",
   "manifest_version": 3,
   "icons": {
     "16": "icon.png",
@@ -10,7 +10,7 @@
     "128": "icon.png"
   },
   "action": {
-    "default_title": "French Bible Auto-Changer"
+    "default_title": "Bible Version Changer - French"
   },
   "content_scripts": [
     {
